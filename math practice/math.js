@@ -443,7 +443,15 @@ function mode(){
     if(b1 === 1 && b2 === 1 && b3 === 1 && b4 === 1 && b5 === 1 && b6 ===1 ){
         output.innerHTML = "there are no same number";
     }else if(max === b1){
-        output.innerHTML = one + " is the mode and  it appears " + n1 + " times"
+        output.innerHTML = first + " is the mode and  it appears " + b1 + " times";
+    }else if(max === b2){
+        output.innerHTML = second + " is the mode and  it appears " + b2 + " times";
+    }else if(max === b3){
+        output.innerHTML = third + " is the mode and  it appears " + b3 + " times";
+    }else if(max === b4){
+        output.innerHTML = fourth + " is the mode and  it appears " + b4 + " times";
+    }else if(max === b5){
+        output.innerHTML = fifth + " is the mode and  it appears " + b5 + " times";
     }
 
 
